@@ -1,5 +1,5 @@
 import iconStar from "../assets/icon-star.svg"
-import { InputButton } from "./components/InputButton"
+import { InputButton } from "./InputButton"
 
 export function CardInicial({ handleMudarNotaAvaliacao, handleSubmit}) {
     return (
@@ -14,11 +14,11 @@ export function CardInicial({ handleMudarNotaAvaliacao, handleSubmit}) {
 
             <div className="flex justify-between mb-6">
                 
-                <InputButton handleMudarNotaAvaliacaom = {handleMudarNotaAvaliacao} value={1}/>
-                <InputButton handleMudarNotaAvaliacaom = {handleMudarNotaAvaliacao} value={2}/>
-                <InputButton handleMudarNotaAvaliacaom = {handleMudarNotaAvaliacao} value={3}/>
-                <InputButton handleMudarNotaAvaliacaom = {handleMudarNotaAvaliacao} value={4}/>
-                <InputButton handleMudarNotaAvaliacaom = {handleMudarNotaAvaliacao} value={5}/>
+                <InputButton handleMudarNotaAvaliacao = {handleMudarNotaAvaliacao} value={1}/>
+                <InputButton handleMudarNotaAvaliacao = {handleMudarNotaAvaliacao} value={2}/>
+                <InputButton handleMudarNotaAvaliacao = {handleMudarNotaAvaliacao} value={3}/>
+                <InputButton handleMudarNotaAvaliacao = {handleMudarNotaAvaliacao} value={4}/>
+                <InputButton handleMudarNotaAvaliacao = {handleMudarNotaAvaliacao} value={5}/>
             </div>
 
             <button onClick={handleSubmit} className="bg-orange w-full uppercase tracking-1 font-bold rounded-3xl text-sm py-3 hover:bg-white hover:text-orange cursor-pointer">Submit</button>
